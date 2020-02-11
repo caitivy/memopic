@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid-container {
+    position: relative;
+}
+
+
+.button {
+    background-color: black;
+    color: white;
+    font-weight: 500;
+}
+
+#offCanvasLeft {
+    background-color: #333333;
+}
+
+#offCanvasLeft  a {
+        color: white;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+#offCanvasLeft  a:link {
+}
+
+
+#offCanvasLeft  a:visited {
+    color: white;
+}
+#offCanvasLeft  a:hover {
+    background-color: white;
+    color: black;
+}
+.menu-link {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-header {
+    font-weight: 500;
+    font-size: 84px;
+    line-height: 124px;
+
+}
+
+.image-container {
+    position: relative;
+    padding: 40px;
+}
+
+.lens {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+}
+
+.right {
+    border-top: 2px solid #000000;
+    border-right: 2px solid #000000;
+    top: 0;
+    right: 0;
+}
+.left {
+    border-left: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    bottom: 0;
+    left: 0;
+}
+
+.subheader {
+    font-size: 16px;
+    line-height: 19px;
+    max-width: 45%;
+    text-align: center;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.side-quote {
+    font-size: 16px;
+    transform: rotate(-89.88deg);
+}
+
+.footer-color {
+    height: 50px;
+    width: 100%;
+    background-color: #1B1C1E;
+    margin: 0;
+    padding: 0;
+    margin-top: -50px;
+
+}
+    
+/*** info ***/
+
+.page-header {
+    text-decoration: underline;
+    padding-bottom: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+    color: #000000;
+}
+.about-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 184.9%;
+    text-align: center;
+}
+
+
+.info-img {
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+
+}
+
+.benefits {
+    margin-top: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #F6F5F5;
+    
+
+}
+.benefits p {
+    font-size: 14px;
+    text-align: center;
+    
+}
+.image-containers {
+    position: relative;
+    padding: 15px;
+}
+
+.small-lens {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    box-sizing: border-box;
+}
+
+/*** portfolio ***/
+
+.card-divider {
+    background-color: white;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.equal-height-cards .cell { 
+      display: flex;
+      align-items: stretch;
+  }
+
+
+
+
+/*** about ***/
+.about-column {
+    padding-right: 20px;
+}
+
+.about_img {
+    padding-left: 130px;
+}
+
+.medium-lens {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+}
+
+/*** contact ***/
+
+.contact-header {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    text-decoration: underline;
+    padding: 40px 0;
+    
+
+}
+.contact-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    padding-top: 40px;
+    text-align: center;
+
+}
+
+.contact_form {
+    padding-top: 20px;
+}
+
+.btn {
+    background: #333333;
+    border: 1px solid #A4C5BE;
+    box-sizing: border-box;
+    padding: 5px 30px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 40px auto;
+    line-height: 22px;
+    text-align: center;
+}
+
+
+.contact-input {
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    width: 90%;
+    margin: 20px 0px;
+}
+.border-contact {
+    width: 806px;
+    height: 0px;
+    border: 1px solid #9A9999;
+    transform: rotate(90deg);
+}

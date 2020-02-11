@@ -1,0 +1,71 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memopic</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<div class="off-canvas-wrapper">
+    <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+        <div class="off-canvas position-left" id="offCanvasLeft" data-off-canvas>
+            <a class="menu-link" href="index.html">Home</a>
+            <a class="menu-link" href="info.html">What we do</a>
+            <a class="menu-link" href="portfolio.html">Portfolio</a>
+            <a class="menu-link" href="about.html">About me</a>
+            <a class="menu-link" href="contact.html">Contact</a>
+        </div>
+    </div>
+</div>
+<button type="button" class="button" data-toggle="offCanvasLeft">Menu</button>
+
+<grid class="grid-container">
+    <div class="grid-x grid-margin-x contact-layout">
+        <div class="cell large-4 large-offset-1 medium-5 medium-offset-2">
+            <h2 class="contact-header">Say Hello</h2>
+        </div>
+        <div class="cell large-3 large-offset-1 medium-5 medium-offset-2">
+            <p class="contact-text">Interested in a quote or just reaching out?</p>
+        </div>
+        <div class="cell large-2 large-offset-2 medium-6 medium-offset-5 contact_form">
+            <form action="">
+                <input type="text" name="fname" required placeholder="Name" class="contact-input">
+                <input type="email" required placeholder="Email" class="contact-input">
+                <input type="number" required placeholder="Phone" class="contact-input">
+                <textarea name="" placeholder="Message" class="contact-input" cols="30" rows="10"></textarea> 
+                <div class="cell large-4 large-offset-3">
+                    <button class="btn default">Send</button>
+                </div>    
+            </form>       
+        </div> 
+     
+        <div class="border-contact"></div>
+
+        <div class="cell large-2 large-offset-9">
+            <div class="contact-name">
+                <h3>Memopic</h3>
+            </div>
+            <div class="contact-address">
+                <p>505 N State Street, Chicago, IL 60654</p>
+            </div>
+            <div class="contact-phone">   
+                <p>312-690-0838</p>
+            </div>
+            <div class="contact-email">  
+                <p>info@memo-pic.com</p>
+            </div>
+        </div>
+    </div>
+</grid>
+
+
+    
+<script src="js/vendor/jquery.js"></script>
+<script src="js/vendor/what-input.js"></script>
+<script src="js/vendor/foundation.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
